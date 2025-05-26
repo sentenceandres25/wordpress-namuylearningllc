@@ -1,0 +1,9 @@
+2025-05-17T10:01:24+00:00 DEBUG #5069 - [New Request] GET /checkout-page/
+2025-05-17T10:01:24+00:00 DEBUG #5069 - POST https://api-m.paypal.com/v1/oauth2/token?grant_type=client_credentials&response_type=client_token&intent=sdk_init&domains[]=namuylearning.com
+Response Debug ID: 9fce686356a1b
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+

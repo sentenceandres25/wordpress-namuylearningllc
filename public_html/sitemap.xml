@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Páginas principales -->
+    <url>
+        <loc>https://namuylearning.com/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://namuylearning.com/our-courses/</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://namuylearning.com/donations/givewp-donation-form/</loc>
+    </url>
+    <url>
+        <loc>https://namuylearning.com/contact/</loc>
+    </url>
+    <url>
+        <loc>https://namuylearning.com/privacy-policy/</loc>
+    </url>
+
+    <!-- Categorías de Productos (WooCommerce) -->
+    <url>
+        <loc>https://namuylearning.com/product-category/fully_guided/</loc>
+    </url>
+    <url>
+        <loc>https://namuylearning.com/product-category/half_and_half/</loc>
+    </url>
+    <url>
+        <loc>https://namuylearning.com/product-category/self_paced_explorer/</loc>
+    </url>
+
+</urlset>

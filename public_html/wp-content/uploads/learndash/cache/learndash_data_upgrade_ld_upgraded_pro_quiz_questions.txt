@@ -1,0 +1,1 @@
+a:9:{s:8:"continue";b:0;s:7:"quiz_id";i:0;s:10:"mismatched";b:1;s:12:"result_count";i:0;s:12:"current_user";a:0:{}s:16:"progress_started";i:1740632102;s:13:"progress_user";i:1;s:7:"skipped";a:0:{}s:13:"process_users";a:0:{}}

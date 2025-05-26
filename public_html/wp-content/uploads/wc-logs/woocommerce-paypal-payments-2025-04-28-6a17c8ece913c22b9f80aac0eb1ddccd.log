@@ -1,0 +1,91 @@
+2025-04-28T15:22:26+00:00 DEBUG #3516 - [New Request] GET /wp-json/jetpack/v4/sync/spawn-sync
+2025-04-28T15:22:26+00:00 DEBUG #3516 - POST https://api-m.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 4d04ded522680
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2025-04-28T15:22:26+00:00 DEBUG #3516 - GET https://api-m.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/KEAL5HLK6J8LA
+Response Debug ID: 5825ce45cf4aa
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2025-04-28T15:22:26+00:00 INFO #3516 - No customers for payment tokens migration.
+2025-04-28T15:22:27+00:00 DEBUG #3516 - GET https://api-m.paypal.com/v1/notifications/webhooks
+Response Debug ID: 038f803405868
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2025-04-28T15:22:27+00:00 DEBUG #3516 - DELETE https://api-m.paypal.com/v1/notifications/webhooks/2XJ024811N144845M
+Response Debug ID: ab0cee683ade9
+Response: Array
+(
+    [code] => 204
+    [message] => No Content
+)
+
+2025-04-28T15:22:28+00:00 INFO #3516 - Webhooks deleted.
+2025-04-28T15:22:28+00:00 DEBUG #3516 - POST https://api-m.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/namuylearning.com\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response Debug ID: 95fefd9d8b59e
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2025-04-28T15:22:28+00:00 INFO #3516 - Webhooks subscribed.
+2025-04-28T15:22:28+00:00 DEBUG #4401 - [New Request] POST /wp-admin/admin-ajax.php
+2025-04-28T15:22:28+00:00 DEBUG #4401 - GET https://api-m.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/KEAL5HLK6J8LA
+Response Debug ID: bfc835c56ec7e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2025-04-28T15:22:28+00:00 INFO #4401 - No customers for payment tokens migration.
+2025-04-28T15:22:29+00:00 DEBUG #4401 - GET https://api-m.paypal.com/v1/notifications/webhooks
+Response Debug ID: 203f007a21d5a
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+2025-04-28T15:22:29+00:00 DEBUG #4401 - DELETE https://api-m.paypal.com/v1/notifications/webhooks/8UX87561S53372813
+Response Debug ID: ae08ee8445a26
+Response: Array
+(
+    [code] => 204
+    [message] => No Content
+)
+
+2025-04-28T15:22:29+00:00 INFO #4401 - Webhooks deleted.
+2025-04-28T15:22:29+00:00 DEBUG #4401 - POST https://api-m.paypal.com/v1/notifications/webhooks
+Request Body: {"url":"https:\/\/namuylearning.com\/wp-json\/paypal\/v1\/incoming","event_types":[{"name":"CHECKOUT.ORDER.APPROVED"},{"name":"CHECKOUT.ORDER.COMPLETED"},{"name":"CHECKOUT.PAYMENT-APPROVAL.REVERSED"},{"name":"PAYMENT.CAPTURE.REFUNDED"},{"name":"PAYMENT.AUTHORIZATION.VOIDED"},{"name":"PAYMENT.CAPTURE.REVERSED"},{"name":"PAYMENT.ORDER.CANCELLED"},{"name":"PAYMENT.CAPTURE.DENIED"},{"name":"PAYMENT.CAPTURE.COMPLETED"},{"name":"VAULT.PAYMENT-TOKEN.CREATED"},{"name":"VAULT.PAYMENT-TOKEN.DELETED"},{"name":"PAYMENT.CAPTURE.PENDING"},{"name":"PAYMENT.SALE.COMPLETED"},{"name":"PAYMENT.SALE.REFUNDED"},{"name":"BILLING.SUBSCRIPTION.CANCELLED"},{"name":"BILLING.PLAN.PRICING-CHANGE.ACTIVATED"},{"name":"CATALOG.PRODUCT.UPDATED"},{"name":"BILLING.PLAN.UPDATED"}]}
+Response Debug ID: 431c5aa2d8b36
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2025-04-28T15:22:29+00:00 INFO #4401 - Webhooks subscribed.
+2025-04-28T15:22:34+00:00 DEBUG #5933 - [New Request] GET /wp-json/jetpack/v4/sync/spawn-sync
+2025-04-28T15:22:34+00:00 DEBUG #5933 - GET https://api-m.paypal.com/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/KEAL5HLK6J8LA
+Response Debug ID: 7a86c0b73f769
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+

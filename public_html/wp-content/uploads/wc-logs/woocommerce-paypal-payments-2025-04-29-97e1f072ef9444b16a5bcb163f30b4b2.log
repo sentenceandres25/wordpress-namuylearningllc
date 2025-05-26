@@ -1,0 +1,9 @@
+2025-04-29T01:00:59+00:00 DEBUG #9417 - [New Request] GET /wp-json/wc/store/v1/cart
+2025-04-29T01:00:59+00:00 DEBUG #9417 - POST https://api-m.paypal.com/v1/oauth2/token?grant_type=client_credentials&response_type=client_token&intent=sdk_init&domains[]=namuylearning.com
+Response Debug ID: a675576655526
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
